@@ -1,0 +1,79 @@
+{
+  "workbench.sideBar.location": "right",
+  "catppuccin.accentColor": "red",
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "git.autofetch": true,
+  "editor.fontSize": 12,
+  "securecoder.enabled": true,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "google.cloud.project": "ultamatumdev",
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "aize-sonarcloud",
+      "connectionId": "aize-sonarcloud",
+      "region": "EU",
+    },
+  ],
+  "python.languageServer": "Default",
+  "debug.inlineValues": false,
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "interface": {
+        "foreground": "#b8ce82"
+      },
+      "namespace": "#cccccc",
+      "enum": "#b8ce82",
+      "struct": {
+        "foreground": "#86C691"
+      },
+      "inactive": {
+        "foreground": "#6A6A6A"
+      }
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.type.interface.cs",
+        "settings": {
+          "foreground": "#b8ce82"
+        }
+      },
+      {
+        "scope": "entity.name.type.enum.cs",
+        "settings": {
+          "foreground": "#b8ce82"
+        }
+      },
+      {
+        "scope": "entity.name.type.struct.cs",
+        "settings": {
+          "foreground": "#86C691"
+        }
+      },
+      {
+        "scope": "variable.other.enummember.cs",
+        "settings": {
+          "foreground": "#4FC1FF"
+        }
+      }
+    ]
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": false,
+    "files.autoSaveDelay": 5000,
+    "csharp-dev-tools.editor.removeUnusedUsingsOnSave": true,
+    "csharp-dev-tools.editor.organizeUsingsOnSave": true
+  },
+  "files.autoSave": "onFocusChange",
+  "csharp-dev-tools.debugger.launchBrowser": false,
+  "csharp-dev-tools.debug.offerToRunLastBuild": false,
+  "csharp-dev-tools.roslyn.roslynatorFormattingAnalyzersEnabled": false,
+  "csharp-dev-tools.roslyn.analyzerDiagnosticsScope": "Solution",
+  "csharp-dev-tools.roslyn.compilerDiagnosticsScope": "Solution",
+}

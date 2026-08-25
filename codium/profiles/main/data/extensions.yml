@@ -1,0 +1,56 @@
+disabled: []
+enabled:
+  - id: Catppuccin.catppuccin-vsc
+    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
+  - id: Catppuccin.catppuccin-vsc-icons
+    uuid: 625b9abd-dfac-405b-bf34-e65f46e2f22f
+  - id: chrisgroks.csharpextension
+    uuid: 30fd324a-9241-4582-bfe2-83bd14e8df2d
+  - id: clinyong.vscode-css-modules
+    uuid: 5f362e62-15b7-4fd3-a839-3a240d18c49d
+  - id: codelogix.catppuccin-darker-vsc
+    uuid: fcddab43-6f77-47f4-ba02-c1eca7bdd67f
+  - id: Continue.continue
+    uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
+  - id: csharpier.csharpier-vscode
+    uuid: 14f1480a-1193-4742-aaee-dd963cc37f0f
+  - id: dbaeumer.vscode-eslint
+    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: EditorConfig.EditorConfig
+    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: firsttris.vscode-jest-runner
+    uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
+  - id: golang.go
+    uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: google.geminicodeassist
+    uuid: 51643712-2cb2-4384-b7cc-d55b01b8274b
+  - id: JakubKozera.csharp-dev-tools
+    uuid: abb25771-7cbe-4e0e-baa1-5c4914848f3c
+  - id: JohnnyMorganz.stylua
+    uuid: 6f48cf48-3912-4acc-8119-94a96a062cc1
+  - id: llvm-vs-code-extensions.vscode-clangd
+    uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
+  - id: meta.pyrefly
+    uuid: 53872426-67ef-4956-afb1-bdae83866fd2
+  - id: mongodb.mongodb-vscode
+    uuid: 4b6540da-bfa3-4b88-b9e3-df8f2d161124
+  - id: ms-playwright.playwright
+    uuid: f53b1d43-eef4-4909-99ca-56b5fa3e108c
+  - id: ms-python.debugpy
+    uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
+  - id: ms-python.python
+    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-python.vscode-python-envs
+    uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
+  - id: SonarSource.sonarlint-vscode
+    uuid: a7fa941e-bcda-486f-8141-8483a6286177
+  - id: stylelint.vscode-stylelint
+    uuid: ec35b5a3-9802-4c68-b5ff-e85f19ec0977
+  - id: vitest.explorer
+    uuid: ab3534a7-eaae-4f75-9735-62bfd758b220
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
