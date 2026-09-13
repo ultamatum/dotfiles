@@ -11,6 +11,8 @@ return {
 				c = { "clang-format" },
 				cpp = { "clang-format" },
 				lua = { "stylua" },
+				sh = { "shfmt" },
+				bash = { "shfmt" },
 				go = { "gofmt" },
 				odin = { "odinfmt" },
 				javascript = { "prettier" },

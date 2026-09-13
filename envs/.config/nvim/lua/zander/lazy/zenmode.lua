@@ -11,7 +11,7 @@ return {
             require("zen-mode").toggle()
             vim.wo.wrap = false
             vim.wo.number = true
-            vim.wo.rnu = truen
+            vim.wo.rnu = true
         end)
 
 

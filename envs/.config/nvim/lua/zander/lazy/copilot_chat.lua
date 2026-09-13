@@ -1,0 +1,45 @@
+return {
+    {
+        "zbirenbaum/copilot.lua",
+        cmd = "Copilot",
+        event = "InsertEnter",
+        config = function()
+            require("copilot").setup({
+                suggestion = {
+                    enabled = true,
+                    auto_trigger = true,
+                    hide_during_completion = true,
+                    debounce = 75,
+                    keymap = {
+                        accept = "<Tab>",
+                        accept_word = false,
+                        accept_line = false,
+                        next = "<M-]>",
+                        prev = "<M-[>",
+                        dismiss = "<C-]>",
+                    },
+                },
+                panel = { enabled = false },
+            })
+        end,
+    },
+    {
+        "CopilotC-Nvim/CopilotChat.nvim",
+        dependencies = {
+            { "zbirenbaum/copilot.lua" },
+            { "nvim-lua/plenary.nvim", branch = "master" },
+        },
+        build = "make tiktoken",
+        opts = {
+            debug = false,
+        },
+        keys = {
+            { "<leader>cc", "<cmd>CopilotChatToggle<cr>", desc = "CopilotChat - Toggle" },
+            { "<leader>ce", "<cmd>CopilotChatExplain<cr>", desc = "CopilotChat - Explain code", mode = { "n", "v" } },
+            { "<leader>ct", "<cmd>CopilotChatTests<cr>", desc = "CopilotChat - Generate tests", mode = { "n", "v" } },
+            { "<leader>cf", "<cmd>CopilotChatFix<cr>", desc = "CopilotChat - Fix code", mode = { "n", "v" } },
+            { "<leader>co", "<cmd>CopilotChatOptimize<cr>", desc = "CopilotChat - Optimize code", mode = { "n", "v" } },
+            { "<leader>cr", "<cmd>CopilotChatReset<cr>", desc = "CopilotChat - Reset" },
+        },
+    },
+}

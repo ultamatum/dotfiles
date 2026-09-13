@@ -5,6 +5,7 @@ return {
 		lazy = false,
 		init = function()
 			local parsers = {
+				"bash",
 				"lua",
 				"vim",
 				"vimdoc",
