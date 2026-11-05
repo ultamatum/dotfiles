@@ -1,0 +1,27 @@
+# Editors & IDE workspace state
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Secrets and environment variables
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Transient / backups
+*.log
+*.tmp
+*.bak
+
+# Neovim lockfile
+lazy-lock.json
+**/lazy-lock.json
